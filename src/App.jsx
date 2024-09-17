@@ -11,41 +11,41 @@ const LandingPage = () => {
   return (
     <div className="antialiased">
       {/* Navbar */}
-      <header className="bg-white shadow-lg h-20 w-full fixed hidden md:flex z-10">
+      <header className="bg-white shadow-lg h-20 w-full fixed hidden md:flex z-10 px-4 py-2 lg:px-6 lg:py-3 items-center font-poppins">
         <a
           href=""
-          className="border flex-shrink-0 flex items-center justify-center px-2 lg:px-4 xl:px-6"
+          className="flex-shrink-0 flex items-center justify-center mx-2"
         >
-          <img className="h-8" src="img/srijansetu.png" alt="" />
+          <img className="h-8 md:h-10" src="img/srijansetu.png" alt="Logo" />
         </a>
-        <nav className="header-links contents font-medium  text-xs lg:text-sm">
-          <ul className="flex items-center ml-2 xl:ml-4 mr-auto">
-            <li className="p-1 font-bold xl:p-2">
+        <nav className="header-links flex-grow font-medium text-xs md:text-sm mx-2">
+          <ul className="flex items-center justify-center ml-2 xl:ml-4 mr-auto space-x-2 lg:space-x-4">
+            <li className="p-1 font-medium text-xs md:text-sm">
               <a href="">
                 <span>About</span>
               </a>
             </li>
-            <li className="p-1 md:p-2 font-bold">
+            <li className="p-1 font-medium text-xs md:text-sm">
               <a href="">
                 <span>Announcements</span>
               </a>
             </li>
-            <li className="p-1 md:p-2 font-bold">
+            <li className="p-1 font-medium text-xs md:text-sm">
               <a href="">
                 <span>Schemes & Policies</span>
               </a>
             </li>
-            <li className="p-1 md:p-2 font-bold">
+            <li className="p-1 font-medium text-xs md:text-sm">
               <a href="">
                 <span>IPR Management</span>
               </a>
             </li>
-            <li className="p-1 md:p-2 font-bold">
+            <li className="p-1 font-medium text-xs md:text-sm">
               <a href="">
                 <span>Provisions</span>
               </a>
             </li>
-            <li className="p-1 md:p-2 font-bold">
+            <li className="p-1 font-medium text-xs md:text-sm">
               <a href="">
                 <span>Network</span>
               </a>
@@ -53,23 +53,37 @@ const LandingPage = () => {
           </ul>
         </nav>
 
-        {/* Reduced size Search box */}
-        <div className="flex items-center mx-2">
+        {/* Search Box */}
+        <div className="relative border px-4 py-2 flex items-center w-auto h-10 rounded-lg focus-within:shadow-lg bg-white mx-2">
+          <div className="absolute inset-y-0 left-0 flex items-center pl-2 text-[#FF8800]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="#FF8800"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </div>
           <input
+            className="peer h-full w-full outline-none text-sm text-[#FF8800] pl-10 pr-2"
             type="text"
-            placeholder="Search..."
-            className="border rounded-lg px-2 py-1 text-xs w-32 lg:w-40 focus:outline-none focus:ring-2 focus:ring-[#FF9933]"
+            id="search"
+            placeholder="Search"
           />
-          <button className="ml-1 bg-[#FF9933] text-white px-2 py-1 text-xs rounded-lg hover:bg-[#FF8800]">
-            Search
-          </button>
         </div>
 
-        <div className="border flex items-center px-2 lg:px-4 xl:px-6">
-          <button className="bg-[#FF9933] hover:bg-[#FF8800] text-white font-bold px-2 xl:px-3 py-1 text-xs lg:text-sm rounded mr-1">
+        <div className="flex items-center px-2 space-x-2 lg:px-4">
+          <button className="bg-[#FF9933] hover:bg-[#FF8800] text-white font-medium px-4 py-2 text-xs md:text-sm rounded">
             Register
           </button>
-          <button className="bg-white hover:bg-gray-200 text-black font-bold px-2 xl:px-3 py-1 text-xs lg:text-sm rounded border border-black">
+          <button className="bg-white hover:bg-gray-200 text-black font-medium px-4 py-2 text-xs md:text-sm rounded border border-[#FF8800]">
             Login
           </button>
         </div>
@@ -85,17 +99,17 @@ const LandingPage = () => {
               data-aos-once="true"
               className="my-4 text-5xl font-bold leading-tight text-darken"
             >
-              <span className="text-yellow-500">Studying</span> Online is now
-              much easier
+              <span className="text-yellow-500">Bridging </span> Innovation{" "}
+              <br></br> with Opportunity
             </h1>
             <p
               data-aos="fade-down"
               data-aos-once="true"
               data-aos-delay="300"
-              className="leading-normal text-2xl mb-8"
+              className="leading-normal text-lg mb-8"
             >
-              Skilline is an interesting platform that will teach you in a more
-              interactive way
+              Connecting researchers, entrepreneurs, policymakers, investors,
+              and IPR professionals for a collaborative future.
             </p>
             <div
               data-aos="fade-up"
@@ -103,13 +117,13 @@ const LandingPage = () => {
               data-aos-delay="700"
               className="w-full md:flex items-center justify-center lg:justify-start md:space-x-5"
             >
-              <button className="lg:mx-0 bg-yellow-500 text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                Join for free
+              <button className="lg:mx-0 bg-yellow-500 text-white text-base font-medium rounded-md py-2 px-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+                Register Now
               </button>
               <div className="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                <button className="bg-white w-14 h-14 rounded-full flex items-center justify-center">
+                <button className="bg-white px-2 py-3 rounded-full flex items-center justify-center">
                   <svg
-                    className="w-5 h-5 ml-2"
+                    className="w-3 h-3 ml-2"
                     viewBox="0 0 24 28"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +143,7 @@ const LandingPage = () => {
             <img
               data-aos="fade-up"
               data-aos-once="true"
-              className="w-10/12 mx-auto 2xl:-mb-20"
+              className="w-10/12 mx-auto 2xl:-mb-20 mb-14"
               src="img/india.png"
             />
             {/* Calendar */}
@@ -192,6 +206,8 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+
+      {/* Partners */}
       <div className="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden">
         {/* Trusted by */}
         <div className="max-w-4xl mx-auto">
