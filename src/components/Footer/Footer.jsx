@@ -28,17 +28,18 @@ const Footer = () => {
                   <rect x="14" y="11" width="7" height="12" />
                 </svg>
                 <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                  Company
+                  SRIJANSETU
                 </span>
               </a>
               <div className="mt-6 lg:max-w-sm">
                 <p className="text-sm text-gray-800">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam.
+                  A Unified Platform for Research, IPR, Innovation, and Start-up
+                  Management for Gujarat.
                 </p>
                 <p className="mt-4 text-sm text-gray-800">
-                  Eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae vitae dicta sunt explicabo.
+                  SrijanSetu creates a more efficient, transparent, and
+                  supportive environment for Gujarat's research, innovation, and
+                  start-up ecosystem.
                 </p>
               </div>
             </div>
@@ -49,23 +50,23 @@ const Footer = () => {
               <div className="flex">
                 <p className="mr-1 text-gray-800">Phone:</p>
                 <a
-                  href="tel:850-123-5021"
+                  href="tel:7598637691"
                   aria-label="Our phone"
                   title="Our phone"
                   className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 >
-                  850-123-5021
+                  +91 72246-98765
                 </a>
               </div>
               <div className="flex">
                 <p className="mr-1 text-gray-800">Email:</p>
                 <a
-                  href="mailto:info@lorem.mail"
+                  href="mailto:srijansetu@gmail.com"
                   aria-label="Our email"
                   title="Our email"
                   className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 >
-                  info@lorem.mail
+                  srijansetu.gujarat@gmail.com
                 </a>
               </div>
               <div className="flex">
@@ -78,13 +79,13 @@ const Footer = () => {
                   title="Our address"
                   className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 >
-                  312 Lovely Street, NY
+                  420, D-Block, SR Street, CR Enclave, Gujarat
                 </a>
               </div>
             </div>
             <div>
               <span className="text-base font-bold tracking-wide text-gray-900">
-                Social
+                Social Media
               </span>
               <div className="flex items-center mt-1 space-x-3">
                 <a
@@ -114,14 +115,15 @@ const Footer = () => {
                 </a>
               </div>
               <p className="mt-4 text-sm text-gray-500">
-                Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-                spare ribs salami.
+                Stay connected with us through social media for the latest
+                updates and insights!
+                Innovate - Connect - Scale
               </p>
             </div>
           </div>
           <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
             <p className="text-sm text-gray-600">
-              © Copyright 2020 Lorem Inc. All rights reserved.
+              © Copyright 2024 Srijansetu Inc. All rights reserved.
             </p>
             <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
               <li>

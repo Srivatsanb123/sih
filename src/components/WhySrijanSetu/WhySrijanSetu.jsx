@@ -45,7 +45,7 @@ const WhySrijanSetu = () => {
               <div className="relative md:w-5/12">
                 <img
                   className="rounded-2xl"
-                  src="img/Rectangle 21.png"
+                  src="img/academicians.png"
                   alt="Student's access interface"
                 />
                 <div className="absolute bg-black bg-opacity-20 bottom-0 left-0 right-0 w-full h-full rounded-2xl">

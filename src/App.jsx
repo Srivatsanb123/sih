@@ -2,6 +2,7 @@ import React from "react";
 import "tailwindcss/tailwind.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./components/Dashboard/Dashboard"
 import Header from "./components/Header/Header";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Features from "./components/Features/Features";

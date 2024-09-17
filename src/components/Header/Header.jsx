@@ -8,7 +8,7 @@ const Header = () => {
           href=""
           className="flex-shrink-0 flex items-center justify-center mx-2"
         >
-          <img className="h-8 md:h-10" src="img/srijansetu.png" alt="Logo" />
+          <img className="h-8 md:h-14" src="img/srijansetu.png" alt="Logo" />
         </a>
         <nav className="header-links flex-grow font-medium text-xs md:text-sm mx-2">
           <ul className="flex items-center justify-center ml-2 xl:ml-4 mr-auto space-x-2 lg:space-x-4">
