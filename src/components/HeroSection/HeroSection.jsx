@@ -51,7 +51,7 @@ const HeroSection = () => {
                     />
                   </svg>
                 </button>
-                <span className="cursor-pointer">Watch how it works</span>
+                <a href="https://youtu.be/3wYxF8stvv0" target="_blank" className="cursor-pointer">Watch how it works</a>
               </div>
             </div>
           </div>
