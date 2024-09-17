@@ -17,11 +17,11 @@ const Discussion = () => {
             className="md:w-5/12 md:transform md:-translate-y-6"
           >
             <h1 className="font-semibold text-darken text-3xl lg:pr-64">
-              One-on-One <span className="text-yellow-500">Discussions</span>
+              One-on-One <span className="text-yellow-500">Matchmaking</span>
             </h1>
             <p className="text-gray-500 my-5 lg:pr-24">
-              Teachers and teacher assistants can talk with students privately
-              without leaving the Zoom environment.
+              Startups, incubators, and investors can seamlessly connect through
+              matchmaking features, fostering collaborations and partnerships.
             </p>
           </div>
         </div>
